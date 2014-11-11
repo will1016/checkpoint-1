@@ -1,0 +1,163 @@
+<div class="page-header">
+  <h1>Geometry Calculator</h1>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <p class="lead">This application can calculate the areas of the following shapes, using the shown formulae, if you provide dimensions within URLs as described below. You can plug any numbers you like into the URLs, but they must be whole numbers.</p>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Square</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = a<sup>2</sup></p>
+    <p>a = length of side</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/square.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/square/LENGTH_OF_SIDE</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/square/3">http://localhost:3000/areas/square/3</a></div>
+        <div><a href="/areas/square/4">http://localhost:3000/areas/square/4</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Circle</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = π × r<sup>2</sup></p>
+    <p>r = radius</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/circle.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/square/RADIUS</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/circle/3">http://localhost:3000/areas/circle/3</a></div>
+        <div><a href="/areas/circle/4">http://localhost:3000/areas/circle/4</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Triangle</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = ½ × b × h</p>
+    <p>b = base</p>
+    <p>h = vertical height</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/triangle.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/triangle/BASE/VERTICAL_HEIGHT</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/triangle/3/5">http://localhost:3000/areas/triangle/3/5</a></div>
+        <div><a href="/areas/triangle/4/6">http://localhost:3000/areas/triangle/4/6</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Rectangle</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = w × h</p>
+    <p>w = width</p>
+    <p>h = height</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/rectangle.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/rectangle/WIDTH/HEIGHT</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/rectangle/3/5">http://localhost:3000/areas/rectangle/3/5</a></div>
+        <div><a href="/areas/rectangle/4/6">http://localhost:3000/areas/rectangle/4/6</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Trapezoid</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = ½(a+b) × h</p>
+    <p>h = vertical height</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/trapezoid.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/trapezoid/A/B/VERTICAL_HEIGHT</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/trapezoid/3/5/7">http://localhost:3000/areas/trapezoid/3/5/7</a></div>
+        <div><a href="/areas/trapezoid/4/6/8">http://localhost:3000/areas/trapezoid/4/6/8</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Ellipse</span></h3>
+  </div>
+  <div class="col-sm-3 col-md-2">
+    <p>Area = πab</p>
+  </div>
+  <div class="col-sm-2">
+    <img src="/images/ellipse.gif">
+  </div>
+  <div class="col-sm-5 col-md-6">
+    <dl>
+      <dt>Format</dt>
+      <dd>http://localhost:3000/areas/ellipse/A/B</dd>
+      <dt>Examples</dt>
+      <dd>
+        <div><a href="/areas/ellipse/3/5">http://localhost:3000/areas/ellipse/3/5</a></div>
+        <div><a href="/areas/ellipse/4/6">http://localhost:3000/areas/ellipse/4/6</a></div>
+      </dd>
+    </dl>
+  </div>
+</div>
+
+<div class="row well">
+  <div class="col-sm-2">
+    <h3><span class="label label-primary">Random</span></h3>
+  </div>
+  <div class="col-sm-10">
+    <p class="lead">You can also just see links to random circles at <a href="/random_circles">http://localhost:3000/random_circles</a>.</p>
+  </div>
+</div>
