@@ -1,4 +1,5 @@
-Geometer::Application.routes.draw do
+Rails.application.routes.draw do
+
   get("/areas/square/:length_of_side", { :controller => "areas", :action => "square" })
 
   get("/areas/circle/:radius", { :controller => "areas", :action => "circle" })
@@ -12,4 +13,5 @@ Geometer::Application.routes.draw do
   get("/random_circles", { :controller => "areas", :action => "random" })
 
   get("/", { :controller => "pages", :action => "home" })
+
 end
