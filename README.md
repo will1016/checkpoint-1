@@ -1,4 +1,4 @@
-# Mid-course check-in 1
+# Mid-course checkpoint 1
 
 ## Setup
 
