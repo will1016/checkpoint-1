@@ -1,4 +1,4 @@
-# Spring 2015 Midterm, Part 1
+# Mid-course check-in 1
 
 ## Setup
 
@@ -24,16 +24,6 @@ The final URL, [/random_circles](http://localhost:3000/random_circles), should d
 
 As a reference, I have put up a fully-functional version of the application at [http://geometer.herokuapp.com](http://geometer.herokuapp.com). This is your target. Your local app is has a grey navbar, and the reference app has a red navbar so that you don't get confused between tabs as you try to check your work.
 
-
-## Rules
-
-You may refer to your notes, homeworks, the Ruby docs, GitHub, the forum, or anything else **except** for a live person (e.g., one of your classmates or a developer friend).
-
-Close/put away/don't use any messaging client, including but not limited to email, chat, SMS, smart watches, walkie talkies, vocal chords, sign language, and Google Glass.
-
-To turn in the exam, you must commit and sync your solutions back up to your fork on github.com. Verify in your browser at `http://github.com/YOUR_ACCOUNT_NAME/geometer` that the most recent version of your changes are live. **You must be signed in to GitHub.com to see the repository.**
-
-You will have 90 minutes to complete the exam, including this part and all other parts. If you finish early, you may leave the classroom and resume your messaging clients (i.e., talk amongst yourselves, email, etc). However, **you must sign out with me before you leave**. While you are in the room, absolutely no email, chat, etc. Any changes made to your GitHub repository after your sign-out time will not count towards your grade.
 
 ## Hints
 
