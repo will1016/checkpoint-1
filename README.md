@@ -2,11 +2,11 @@
 
 ## Setup
 
- 1. **Fork** this repository to your own account.
+<!--  1. **Fork** this repository to your own account.
  1. Clone your fork to your computer.
  1. `cd` into your fork.
  1. Run the `bundle install` command.
- 1. Start up your `rails server`.
+ 1. Start up your `rails server`. -->
  1. In Chrome,
   - navigate to [http://localhost:3000](http://localhost:3000)
   - in another tab, navigate to [http://geometer.herokuapp.com](http://geometer.herokuapp.com)

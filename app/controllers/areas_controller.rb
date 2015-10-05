@@ -6,13 +6,15 @@ class AreasController < ApplicationController
 
   def circle
     pi = 3.1416 # Close enough.
-    @r = params[:radius]
+    @r = params[:radius].to_f #changed the params string to an interger
+    #Enter the formula to multiply pi and the params place holder number
+    @area = (pi*(@r**2))
   end
 
   def triangle
     @b = params[:base].to_f
     @h = params[:vertical_height].to_f
-    area = 0.5 * b * h
+    @area = 0.5 * @b * @h   #Changed all triangle instance variables to instance
   end
 
   def rectangle
@@ -21,14 +23,22 @@ class AreasController < ApplicationController
     @area = @w * @h
   end
 
+  def trapezoid    #Created this entire action from scratch
+    @a = params[:a].to_f
+    @b = params[:b].to_f
+    @h = params[:vertical_height].to_f
+    @area = (0.5*(@a + @b)) * @h
+  end
+
   def ellipse
     pi = 3.1416 # Close enough.
     @a = params[:a].to_f
     @b = params[:b].to_f
-    @area = pi * @a * @b
+    @area = (pi * @a * @b)
   end
 
   def random
     @radii = [rand(1..20), rand(1..20), rand(1..20), rand(1..20), rand(1..20)]
+
   end
 end
